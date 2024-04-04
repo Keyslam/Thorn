@@ -1,20 +1,11 @@
 using System.Drawing;
 using System.Numerics;
-using Silk.NET.Core.Contexts;
-using Silk.NET.OpenGL;
 using Thorn.Graphics;
 
 namespace Thorns.Graphics.OpenGL;
 
 public class RenderPass : IRenderPass
 {
-	private GL _gl;
-	
-	public RenderPass(IGLContextSource window)
-	{
-		_gl = window.CreateOpenGL();
-	}
-
 	public void Clear()
 	{
 		throw new NotImplementedException();
