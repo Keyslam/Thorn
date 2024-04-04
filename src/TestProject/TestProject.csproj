@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Graphics\Thorn.Graphics\Thorn.Graphics.csproj" />
+      <ProjectReference Include="..\Graphics\Thorns.Graphics.OpenGL\Thorns.Graphics.OpenGL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Silk.NET" Version="2.20.0" />
+    </ItemGroup>
+
+</Project>
